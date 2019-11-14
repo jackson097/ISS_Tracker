@@ -1,2 +1,2 @@
 # ISS Tracker
-Simple python application to practice using APIs.
+An Internation Space Station tracker I created to practice using APIs.

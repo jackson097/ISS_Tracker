@@ -1,6 +1,6 @@
 from api import get_iss_pass_times, get_longitude, get_latitude
 from input_validation import is_valid_latitude, is_valid_longitude
-from print_results import print_ISS_pass_info
+from ISS_info_functions import print_ISS_pass_info
 
 print("Enter a longitude and latitude to see ISS pass information over those coordinates.")
 

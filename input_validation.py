@@ -16,7 +16,7 @@ def _is_valid_coordinate(type, coordinate):
 
 	# Validate that the coordinate is an integer
 	try:
-  		coordinate = int(coordinate)
+  		coordinate = float(coordinate)
 	except:
   		return False
 

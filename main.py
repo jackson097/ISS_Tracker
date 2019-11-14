@@ -22,7 +22,7 @@ while(is_valid_longitude(longitude) == False):
 	longitude = raw_input("\nInvalid longitude. Try again: ")
 
 # Print the ISS pass times over the location provided
-print("\nISS passes over (" + latitude + "," + longitude + "):")
+print("\nISS passes over ({:.4f},{:.4f}):".format(float(latitude), float(longitude)))
 iss_pass_times = get_iss_pass_times(latitude, longitude)
 for index in range(0, len(iss_pass_times)-1):
 	print_ISS_pass_info(index, iss_pass_times)
